@@ -45,7 +45,6 @@ class CalculateViewController: UIViewController {
 //        bmiValue = String(format: "%.1f", bmi)
 //        print(bmi)
 //
-    
         calculatorBrain.calculateBMI(height: height, weight: weight)
         performSegue(withIdentifier: "goToResult", sender: self)
         
